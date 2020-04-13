@@ -1,0 +1,39 @@
+{
+  "name": "@mix/passport-apple-id",
+  "version": "1.0.0",
+  "description": "\"Sign in with Apple\" authentication strategy for Passport and Node.js",
+  "license": "Apache-2.0",
+  "licenses": [
+    { "type": "Apache-2.0", "url": "http://opensource.org/licenses/Apache-2.0" }
+  ],
+  "author": {
+    "name": "Christopher Bonhage",
+    "email": "chris@mix.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mix/passport-apple-id.git"
+  },
+  "homepage": "https://github.com/mix/passport-apple-id#readme",
+  "bugs": {
+    "url": "https://github.com/mix/passport-apple-id/issues"
+  },
+  "keywords": [
+    "passport",
+    "appleid",
+    "apple-id",
+    "sign-in-with-apple"
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.0",
+    "passport-oauth2": "^1.5.0"
+  }
+}
