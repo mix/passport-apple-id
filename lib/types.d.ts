@@ -9,5 +9,7 @@ interface StrategyOptions {
   callbackURL: string;
   tokenURL?: string;
   // OAuth2Strategy options
+  passReqToCallback?: boolean,
+  skipUserProfile?: boolean,
   scope?: string[] | string
 }
